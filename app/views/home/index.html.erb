@@ -1,7 +1,28 @@
-<html>
-<head></head>
-<body>
-Test Home Page 
-</body>
-</html>
+<h1 id="claim">
+  <i class="fa fa-quote-left"></i>
+    I write code, when I'm not scuba diving.
+  <i class="fa fa-quote-right"></i>
+</h1>
 
+
+<hr class="soften">
+
+<div class="section-hello row">
+  <div class="hello-avatar col-xs-4">
+    <%=image_tag("manisiva19.jpg", :class=> "avatar")%>
+
+  </div>
+  <div class="hello-about col-xs-7 col-xs-offset-1">
+    <p class="emphasize">Hello! I'm a <strong>software developer</strong> with an insane passion for <strong>code quality</strong>.</p>
+    <p class="emphasize">This is the right place to find some information  <%= link_to "about me", root_url%>, learn more about <%= link_to "my work", work_url%>, view <%= link_to "my code", code_url%>, or <%= link_to "read my articles", blog_url%> about programming and software.</p>
+    <div class="hello-contact">
+      <p class="hello-contact-profiles">
+        <a href="https://github.com/manisiva"><i class="fa fa-github" title="GitHub" rel="tooltip"></i></a>
+        <a href="https://twitter.com/manisiva19"><i class="fa fa-twitter" title="Twitter" rel="tooltip"></i></a>
+        <a href="https://www.facebook.com/manisiva19"><i class="fa fa-facebook" title="Facebook" rel="tooltip"></i></a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr class="soften">

@@ -12,4 +12,6 @@
  *
  *= require_tree .
  *= require_self
+ *= require_bootstap
+ *= require_font-awesome
  */
